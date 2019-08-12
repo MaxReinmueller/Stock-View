@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #282D44 !important;
+ 
+ }
+ 
+ .jumbotron {
+    background-image: url("../assets/images/Blue-Background.png");
+  }
+
+  #stockTable {
+   margin-bottom: 5%;
+}
