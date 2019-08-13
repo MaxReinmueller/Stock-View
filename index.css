@@ -5,10 +5,20 @@
  
  .jumbotron {
     background-color: #282D44;
-
+      padding-top: 25px;
+      padding-bottom: 25px;
   }
+
+
 .lead {
     color: white 
 }
 
+#Tutorial{
+  color: #282D44;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+
+}
