@@ -1,3 +1,31 @@
+$(document).ready(function(){
+    
+    $.ajax({
+        url: `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=business&api-key=DG0snt5ufAan5skXu03BuAbwu81bLsuA`,
+        method: "GET"
+      }).then(function(res) {
+        console.log(res);
+       
+     var trendingData= res.response.docs;
+     trending(trendingData);
+    }); 
+});
+function trending(trendingData){
+console.log("got here 2");
+for (let i = 0; i < trendingData.length; i++) {
+console.log(trendingData[i].headline.main)
+var trendingContainer = $(".onLoad").append(`<div class="trendingContainer"></div>`);
+
+$(trendingContainer).append(`<div class="headline"><a href="${trendingData[i].web_url}">${trendingData[i].headline.main}</a></div>`);
+$(trendingContainer).append(`<div class="snippet">${trendingData[i].snippet} </div>`);
+$(trendingContainer).append("<br/>")
+$(trendingContainer).append(`<a href="${trendingData[i].web_url}">${trendingData[i].web_url}</a>`);
+$(trendingContainer).append("<br/>")
+$(trendingContainer).append(`<img src="https://static01.nyt.com/${trendingData[i].multimedia[0].url}" />`);
+}
+}
+
+
 $(".searchButton").click(function(event){
     event.preventDefault();
     $(".article").empty();
