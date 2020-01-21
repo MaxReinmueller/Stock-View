@@ -22,7 +22,7 @@ as well as on the front page we had same api called to dislay news
 - Bootstrap
 - FireBase
 ## Contributors:
-Karishma Hattar
-Max Reinmueller
-Massimo Pirrone
-Daniel Gomez
+- Karishma Hattar
+- Max Reinmueller
+- Massimo Pirrone
+- Daniel Gomez
