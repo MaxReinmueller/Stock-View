@@ -12,7 +12,7 @@ my share was news page where i used nytimes api key to call for results
 as well as on the front page we had same api called to dislay news
 
 ## Screenshots
-![Stocks! ]()
+![Stocks! ](https://github.com/MaxReinmueller/Stock-View/blob/master/assets/images/StockView.jpg)
 
 ## Technologies used
 
@@ -21,3 +21,8 @@ as well as on the front page we had same api called to dislay news
 - JavaScript
 - Bootstrap
 - FireBase
+## Contributors:
+Karishma Hattar
+Max Reinmueller
+Massimo Pirrone
+Daniel Gomez
