@@ -1,5 +1,5 @@
 ### StockView
-!(https://kaur1081.github.io/Stocks/)
+!(https://maxreinmueller.github.io/Stock-View/)
 
 ## Overview- Features/Pages
 (home) Learn about investing.
